@@ -1,0 +1,28 @@
+{
+  "name": "@alexintosh/stupid-reporter-bot",
+  "version": "0.0.1",
+  "description": "a stupid reporter bot",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon src/index.ts",
+    "format": "prettier 'src/**/*.ts' --write"
+  },
+  "author": "alexintosh",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.1",
+    "graphql": "^16.0.1",
+    "graphql-request": "^3.6.1",
+    "moment": "^2.29.1",
+    "node-cron": "^3.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1"
+  }
+}

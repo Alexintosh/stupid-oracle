@@ -1,0 +1,4 @@
+{
+  "include": ["src/**/*", "decs.d.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
