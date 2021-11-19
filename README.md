@@ -1,6 +1,15 @@
-# Solidity Template
+# Stupid Oracle
 
-My favorite setup for writing Solidity smart contracts.
+What is this project is about:
+
+- Creating simple to operate oracles for PoC
+- Not having to wait for a Chainlink Oracle to experiment in prod.
+
+What is this project is **not** about:
+
+- An alternative to Chainlink or other serious Oracle Architecture.
+
+## Development
 
 - [Hardhat](https://github.com/nomiclabs/hardhat): compile and run the smart contracts on a local development network
 - [TypeChain](https://github.com/ethereum-ts/TypeChain): generate TypeScript types for smart contracts

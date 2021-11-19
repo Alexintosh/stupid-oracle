@@ -1,10 +1,10 @@
 {
-  "name": "@paulrberg/solidity-template",
-  "description": "Template for writing Solidity smart contracts",
+  "name": "@alexintosh/stupid-oracle",
+  "description": "Just a Stupid Oracle",
   "version": "1.0.0",
   "author": {
-    "name": "Paul Razvan Berg",
-    "url": "https://paulrberg.com"
+    "name": "Alessio Delmonti",
+    "url": "https://twitter.com/Alexintosh"
   },
   "devDependencies": {
     "@codechecks/client": "^0.1.12",
@@ -82,6 +82,10 @@
     "prettier": "prettier --config ./.prettierrc.yaml --write \"**/*.{js,json,md,sol,ts}\"",
     "prettier:check": "prettier --check --config ./.prettierrc.yaml \"**/*.{js,json,md,sol,ts}\"",
     "test": "hardhat test",
-    "typechain": "cross-env TS_NODE_TRANSPILE_ONLY=true hardhat typechain"
+    "typechain": "cross-env TS_NODE_TRANSPILE_ONLY=true hardhat typechain",
+    "remix": "remixd -s . --remix-ide https://remix.ethereum.org"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.3"
   }
 }
