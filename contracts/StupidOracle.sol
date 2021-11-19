@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.4;
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "./interfaces/AggregatorV3Interface.sol";
+import "./interfaces/StupidAggregatorInterface.sol";
 import "hardhat/console.sol";
 
-contract StupidOracle is Ownable, AggregatorV3Interface {
+contract StupidOracle is Ownable, StupidAggregatorInterface {
     uint80 public roundId;
     uint8 public override decimals;
     uint256 public override version;
