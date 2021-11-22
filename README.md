@@ -1,26 +1,16 @@
 # Stupid Oracle
+<img src="https://media.giphy.com/media/l46CyJmS9KUbokzsI/giphy.gif" />
 
-What is this project is about:
+## What is this project is about:
 
-- Creating simple to operate oracles for PoC
-- Not having to wait for a Chainlink Oracle to experiment in prod.
+- Creating simple-to-operate oracles for PoC
+- Chainlink Interface compatibility
+- Not having to wait for a Chainlink Oracle to experiment in prod
 
 What is this project is **not** about:
-
 - An alternative to Chainlink or other serious Oracle Architecture.
+- A Decentralized Oracle
 
-## Development
-
-- [Hardhat](https://github.com/nomiclabs/hardhat): compile and run the smart contracts on a local development network
-- [TypeChain](https://github.com/ethereum-ts/TypeChain): generate TypeScript types for smart contracts
-- [Ethers](https://github.com/ethers-io/ethers.js/): renowned Ethereum library and wallet implementation
-- [Waffle](https://github.com/EthWorks/Waffle): tooling for writing comprehensive smart contract tests
-- [Solhint](https://github.com/protofire/solhint): linter
-- [Solcover](https://github.com/sc-forks/solidity-coverage): code coverage
-- [Prettier Plugin Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity): code formatter
-
-This is a GitHub template, which means you can reuse it as many times as you want. You can do that by clicking the "Use this
-template" button at the top of the page.
 
 ## Usage
 
